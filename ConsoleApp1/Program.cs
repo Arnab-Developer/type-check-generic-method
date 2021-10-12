@@ -18,9 +18,8 @@ namespace ConsoleApp1
     class Class1<T> where T : IFoo
     {
         public string M1(T input)
-        {
-            //if (input is Foo3) return "hello";
-            if (typeof(T) == typeof(Foo3)) return "hello";
+        {            
+            if (typeof(T) == typeof(Foo3)) return "hello"; // alternate method: if (input is Foo3) return "hello";
             return input.H1();
         }
     }
