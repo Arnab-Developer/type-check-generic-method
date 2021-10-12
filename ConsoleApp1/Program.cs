@@ -1,5 +1,5 @@
-﻿using static System.Console;
-using ConsoleApp1;
+﻿using ConsoleApp1;
+using static System.Console;
 
 Foo1 f1 = new();
 Class1<Foo1> c1 = new();
