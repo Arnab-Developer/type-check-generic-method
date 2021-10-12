@@ -19,7 +19,8 @@ namespace ConsoleApp1
     {
         public string M1(T input)
         {
-            if (input is Foo3) return "hello";
+            //if (input is Foo3) return "hello";
+            if (typeof(T) == typeof(Foo3)) return "hello";
             return input.H1();
         }
     }
